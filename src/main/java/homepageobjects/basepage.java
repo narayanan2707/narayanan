@@ -29,7 +29,7 @@ public class basepage {
 		}
 	}
 
-	public boolean elementFound =(WebElement element) {
+	public boolean elementFound(WebElement element) {
 		boolean res = false;
 		try {
 			res = element.isDisplayed();
